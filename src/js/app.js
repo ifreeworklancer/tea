@@ -63,7 +63,7 @@ require('bootstrap');
     var elem1 = document.querySelector('.best-slider');
     if (elem1) {
 
-      const flkty2 = new Flickity(elem1, {
+      const flkty1 = new Flickity(elem1, {
         prevNextButtons: false,
         cellAlign: 'left',
         contain: true,
@@ -71,6 +71,44 @@ require('bootstrap');
         wrapAround: true,
       });
 
+      var prevArrowOpportunities = document.querySelector('.slider-arrow-item--prev-best');
+
+      prevArrowOpportunities.addEventListener('click', function () {
+        flkty1.previous(true, false);
+      });
+
+      var nextArrowOpportunities = document.querySelector('.slider-arrow-item--next-best');
+
+      nextArrowOpportunities.addEventListener('click', function () {
+        flkty1.next(true, false);
+      });
+    }
+  }
+
+  if ($('.exclusive-slider')) {
+
+    var elem2 = document.querySelector('.exclusive-slider');
+    if (elem2) {
+
+      const flkty2 = new Flickity(elem2, {
+        prevNextButtons: false,
+        cellAlign: 'left',
+        contain: true,
+        draggable: true,
+        wrapAround: true,
+      });
+
+      var prevArrowOpportunities = document.querySelector('.slider-arrow-item--prev-exclusive');
+
+      prevArrowOpportunities.addEventListener('click', function () {
+        flkty2.previous(true, false);
+      });
+
+      var nextArrowOpportunities = document.querySelector('.slider-arrow-item--next-exclusive');
+
+      nextArrowOpportunities.addEventListener('click', function () {
+        flkty2.next(true, false);
+      });
     }
   }
 

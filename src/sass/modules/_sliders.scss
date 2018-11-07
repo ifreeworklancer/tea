@@ -13,6 +13,21 @@
     }
 }
 
+.exclusive-slider {
+
+    &-item {
+        width: 100%;
+
+        @media (min-width: map_get($grid-breakpoints, sm)) {
+            width: 50%;
+        }
+
+        @media (min-width: map_get($grid-breakpoints, lg)) {
+            width: 33.33333%;
+        }
+    }
+}
+
 .flickity-page-dots {
     display: flex;
     align-items: flex-end;
@@ -22,6 +37,10 @@
     transform: translateX(-50%);
     width: 100%;
     max-width: 320px;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+        bottom: -10px !important;
+    }
 
     li {
         flex: 1 0 auto;
@@ -46,6 +65,7 @@
     &-item {
         display: flex;
         align-items: center;
+        user-select: none;
         cursor: pointer;
 
         .icon {

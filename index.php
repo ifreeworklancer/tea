@@ -3,7 +3,7 @@
 require_once('header.php');
 
 
-$sections = ['intro' , 'best'];
+$sections = ['intro' , 'best' , 'exclusive' , 'about'];
 
 foreach ($sections as $section) {
 	include(__DIR__ . '/includes/template-parts/' . $section . '.php');

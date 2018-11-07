@@ -7,6 +7,7 @@
                     <h2 class="section-description__title">Лучшие сорта чая</h2>
                     <div class="section-description__text">Брендовые торговые марки чая</div>
                 </div>
+                <div class="decor-img" style="background-image: url('../../images/content/best/decor/decor-item-1.png')"></div>
             </div>
         </div>
         <div class="row no-gutters">
