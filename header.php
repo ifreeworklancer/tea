@@ -82,6 +82,10 @@
             <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30   S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
         </symbol>
 
+        <symbol id="house-icon" viewBox="0 0 44 44">
+            <path fill="#96d16b" d="m22,0c-12.2,0-22,9.8-22,22s9.8,22 22,22 22-9.8 22-22-9.8-22-22-22zm12,20h-1.5c-0.3,0-0.5,0.2-0.5,0.5v12.5c0,0.6-0.4,1-1,1h-18c-0.6,0-1-0.4-1-1v-12.5c0-0.3-0.2-0.5-0.5-0.5h-1.5c-0.6,0-1-0.4-1-1 0-0.3 0.2-0.7 0.4-0.8l12-8c0.2-0.1 0.3-0.2 0.6-0.2s0.4,0.1 0.6,0.2l12,8c0.3,0.2 0.4,0.5 0.4,0.8 0,0.6-0.4,1-1,1z"/>
+            <path fill="#96d16b" d="m22.3,14.8c-0.2-0.1-0.4-0.1-0.6,0l-5.5,3.7c-0.1,0.1-0.2,0.2-0.2,0.4v10.6c0,0.3 0.2,0.5 0.5,0.5h3c0.3,0 0.5-0.2 0.5-0.5v-4.5c0-0.6 0.4-1 1-1h2c0.6,0 1,0.4 1,1v4.5c0,0.3 0.2,0.5 0.5,0.5h3c0.3,0 0.5-0.2 0.5-0.5v-10.6c0-0.2-0.1-0.3-0.2-0.4l-5.5-3.7z"/>
+        </symbol>
     </svg>
 
     <header id="app-header">
@@ -131,7 +135,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="btn btn-outline-secondary">
+                            <a href="#best" class="btn btn-outline-secondary scroll-link">
                                 Заказать
                             </a>
                         </div>
@@ -145,27 +149,27 @@
                             <div class="w-100 d-flex flex-column flex-sm-row justify-content-center align-items-center">
                                 <ul class="menu-list list-unstyled w-100 d-flex flex-column flex-sm-row justify-content-between align-items-center">
                                     <li class="menu-list-item">
-                                        <a href="#">
+                                        <a href="#intro" class="scroll-link">
                                             Главная
                                         </a>
                                     </li>
                                     <li class="menu-list-item">
-                                        <a href="#">
+                                        <a href="#best" class="scroll-link">
                                             Лучшие
                                         </a>
                                     </li>
                                     <li class="menu-list-item">
-                                        <a href="#">
+                                        <a href="#exclusive" class="scroll-link">
                                             Эксклюзив
                                         </a>
                                     </li>
                                     <li class="menu-list-item">
-                                        <a href="#">
+                                        <a href="#about" class="scroll-link">
                                             О нас
                                         </a>
                                     </li>
                                     <li class="menu-list-item">
-                                        <a href="#">
+                                        <a href="#contacts" class="scroll-link">
                                             Контакты
                                         </a>
                                     </li>
@@ -207,7 +211,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                    <a href="#" class="btn btn-outline-secondary">
+                                    <a href="#best" class="btn btn-outline-secondary scroll-link">
                                         Заказать
                                     </a>
                                 </div>

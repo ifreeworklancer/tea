@@ -1,6 +1,13 @@
 #exclusive {
-    background: url('../images/bg/exclusive-bg.jpg') 50% 50% /cover no-repeat;
+    background: url('../images/bg/exclusive.gif') 50% 50% /cover no-repeat;
     z-index: 4;
+
+    &::before {
+        content: '';
+        @extend %pos;
+        background: rgba(#000, .7);
+        z-index: -5;
+    }
 }
 
 .exclusive-content {

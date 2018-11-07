@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     z-index: 50;
-    transform: translateX(900px);
+    transform: translateX(1200px);
     transition: .5s;
 
     @media (max-width: map_get($grid-breakpoints, sm)) {

@@ -9,7 +9,7 @@
                         <div class="section-description__text">Эксклюзивная чайная посуда</div>
                     </div>
                     <div class="text-right">
-                        <a href="#" class="btn btn-primary">Заказать</a>
+                        <a href="#best" class="btn btn-primary scroll-link">Заказать</a>
                     </div>
                 </div>
                 <div class="scroll-down position-absolute">

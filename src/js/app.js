@@ -1,5 +1,6 @@
 import jquery from 'jquery';
 import Flickity from 'flickity';
+import ScrollReveal from 'scrollreveal'
 import 'flickity/dist/flickity.css';
 
 window.jQuery = window.$ = jquery;
@@ -27,9 +28,9 @@ require('bootstrap');
 
   $('.form-control').on('blur', function () {
     if ($(this).val() !== "") {
-      $(this).parent().addClass('in-focus');
+      $(this).parents('.form-group').addClass('in-focus');
     } else {
-      $(this).parent().removeClass('in-focus');
+      $(this).parents('.form-group').addClass('in-focus');
     }
   });
 
@@ -55,9 +56,67 @@ require('bootstrap');
   });
 
   /**
+   * Order
+   */
+  $('.order-link').on('click', function (e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+
+    if (id.length > 1) {
+
+      var top = $(id).offset().top;
+
+      $('body,html').animate({
+        scrollTop: top
+      }, 1500);
+    }
+
+    var productTitle = $(this).parents('.product-card').find('.product-card__title');
+
+    var productTitleText = $(productTitle).text();
+
+    var userMessage = $('#user-message--order');
+
+    var userMessageText = productTitleText.replace(/\s+/g, ' ').trim();
+
+    $(userMessage).parents('.form-group').addClass('in-focus');
+
+    $('#user-message--order').val(userMessageText);
+  });
+
+
+  /**
+   * Animate
+   */
+  ScrollReveal().reveal('.intro-item', {
+    origin: 'left',
+    delay: 400,
+    distance: '200px',
+  });
+  ScrollReveal().reveal('.best-slider', {
+    origin: 'bottom',
+    delay: 400,
+    distance: '200px',
+  });
+  ScrollReveal().reveal('.exclusive-slider', {
+    origin: 'bottom',
+    delay: 400,
+    distance: '200px',
+  });
+  ScrollReveal().reveal('.about-video', {
+    origin: 'left',
+    delay: 400,
+    distance: '200px',
+  });
+  ScrollReveal().reveal('.about-item', {
+    origin: 'right',
+    delay: 400,
+    distance: '200px',
+  });
+
+  /**
    * Sliders
    */
-
   if ($('.best-slider')) {
 
     var elem1 = document.querySelector('.best-slider');

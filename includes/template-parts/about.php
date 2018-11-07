@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="row justify-content-between">
-            <div class="col-sm-7">
+            <div class="col-sm-7 p-sm-0">
                 <div class="about-video" style="background-image: url('../../images/content/about/about-item-1.jpg');">
                     <div class="play-video">
                         <div class="play-video__text">
@@ -40,7 +40,7 @@
                         Надеемся на дальнейшее сотрудничество и взаимопонимание.
                     </p>
                     <div class="text-center">
-                        <a href="#" class="btn btn-primary">
+                        <a href="#best" class="btn btn-primary scroll-link">
                             Заказать
                         </a>
                     </div>

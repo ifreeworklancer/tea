@@ -30,7 +30,7 @@
                                             чаев
                                             и любят копченный вкус сухо фруктов и табака.
                                         </p>
-                                        <a href="#" class="order-link">
+                                        <a href="#contacts" class="order-link">
                                             Заказать
                                         </a>
                                     </div>
@@ -54,7 +54,7 @@
                                             чаев
                                             и любят копченный вкус сухо фруктов и табака.
                                         </p>
-                                        <a href="#" class="order-link">
+                                        <a href="#contacts" class="order-link">
                                             Заказать
                                         </a>
                                     </div>
@@ -78,7 +78,7 @@
                                             чаев
                                             и любят копченный вкус сухо фруктов и табака.
                                         </p>
-                                        <a href="#" class="order-link">
+                                        <a href="#contacts" class="order-link">
                                             Заказать
                                         </a>
                                     </div>
@@ -102,7 +102,7 @@
                                             чаев
                                             и любят копченный вкус сухо фруктов и табака.
                                         </p>
-                                        <a href="#" class="order-link">
+                                        <a href="#contacts" class="order-link">
                                             Заказать
                                         </a>
                                     </div>
